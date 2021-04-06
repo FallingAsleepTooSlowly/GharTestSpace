@@ -1,0 +1,9 @@
+/* pages/jokes/jokes.wxss */
+.joke-box{
+    border: 1rpx solid #B2B2B2;
+    border-radius: 8rpx;
+    margin-top: 20rpx;
+}
+.joke-content{
+    font-size: 30rpx;
+}

@@ -1,0 +1,8 @@
+<!--pages/jokes/jokes.wxml-->
+<view class='v-center'>
+    <view>
+        <view wx:for="{{jokeList}}" wx:key="{{item.hashId}}" class='v-width joke-box'>
+            <view class='joke-content'>{{item.content}}</view>
+        </view>
+    </view>
+</view>

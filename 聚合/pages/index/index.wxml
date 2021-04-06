@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<view class='v-center' wx:for="{{wxList}}" data-reg="{{item}}"  wx:key="item.id">
+        <view>
+            <view class='v-width wx-box'>
+                <view class='wx-title' bindtap='turnToUrl' data-item='{{item}}'>{{item.title}}</view>
+                <view class='wx-source gray'>{{item.source}}</view>
+            </view>
+        </view>
+    </view>

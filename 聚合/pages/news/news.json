@@ -1,0 +1,4 @@
+{
+    "common1": "加了usingComponents定义段后，页面也可以使用 Component 构造器构造",
+    "usingComponents": {}       
+}

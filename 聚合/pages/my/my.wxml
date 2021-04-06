@@ -1,0 +1,4 @@
+<!--pages/my/my.wxml-->
+<button catchtap="getUserProfile">登录</button>
+
+<test-component></test-component>

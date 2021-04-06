@@ -1,0 +1,9 @@
+/**index.wxss**/
+.wx-box{
+    padding: 40rpx 0;
+    border-bottom: 1rpx solid #B2B2B2;
+}
+.wx-source{
+    margin-top: 20rpx;
+    font-size: 25rpx;
+}

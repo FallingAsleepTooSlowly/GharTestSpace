@@ -1,0 +1,44 @@
+{
+  "pages": [
+    "pages/my/my",
+    "pages/news/news",
+    "pages/index/index",
+    "pages/jokes/jokes",
+    "pages/webpage/webpage"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "聚合demo",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/news/news",
+        "text": "新闻头条",
+        "iconPath": "images/news.png",
+        "selectedIconPath": "images/news.png"
+      },
+      {
+        "pagePath": "pages/index/index",
+        "text": "微信精选",
+        "iconPath": "images/weixin.png",
+        "selectedIconPath": "images/weixin.png"
+      },
+      {
+        "pagePath": "pages/jokes/jokes",
+        "text": "笑话大全",
+        "iconPath": "images/smiling.png",
+        "selectedIconPath": "images/smiling.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/my.png",
+        "selectedIconPath": "images/my.png"
+      }
+    ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

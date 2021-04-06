@@ -1,0 +1,32 @@
+<!--pages/news/news.wxml-->
+<!-- 一定要将scroll-view容器设置宽度,并设置white-space: nowrap;
+一定要将scroll-view容器的每一项都设置宽度和display:inline-block -->
+<scroll-view scroll-x style='overflow: auto;white-space: nowrap;'>
+    <view wx:for="{{newTypes}}" data-reg="{{item}}" wx:key="item" class="news-type {{item.activity ? 'type-act':''}}" bindtap='changeType'>{{item.typeName}}</view>
+</scroll-view>
+
+<view>
+    <view class='v-center news-info' wx:for="{{newsList}}" data-reg="{{item}}"  wx:key="item">
+        <view>
+            <view wx:if="{{item.thumbnail_pic_s03}}" bindtap='turnToUrl' class='v-width news-box'>
+                <view class='news-title' data-item='{{item}}'>{{item.title}}</view>
+                <view class='img-box'>
+                    <image class='news-img3' mode='aspectFit' src='{{item.thumbnail_pic_s}}'></image>
+                    <image class='news-img3' mode='aspectFit' src='{{item.thumbnail_pic_s02}}'></image>
+                    <image class='news-img3' mode='aspectFit' src='{{item.thumbnail_pic_s03}}'></image>
+                </view>
+            </view>
+            <view wx:elif="{{item.thumbnail_pic_s02}}" bindtap='turnToUrl' class='v-width news-box'>
+                <view class='news-title' data-item='{{item}}'>{{item.title}}</view>
+                <view style='height: 300rpx;'>
+                    <image class='news-img2' mode='aspectFit' src='{{item.thumbnail_pic_s}}'></image>
+                    <image class='news-img2' mode='aspectFit' src='{{item.thumbnail_pic_s02}}'></image>
+                </view>
+            </view>
+            <view wx:elif="{{item.thumbnail_pic_s}}" bindtap='turnToUrl' class='v-width news-box img-box'>
+                <image class='news-img1 f-fl' mode='aspectFit' src='{{item.thumbnail_pic_s}}'></image>
+                <view class='news-title news-title1 f-fr' data-item='{{item}}'>{{item.title}}</view>
+            </view>
+        </view>
+    </view>
+</view>

@@ -1,0 +1,49 @@
+/* pages/news/news.wxss */
+.news-type{
+    display: inline-block;
+    padding: 20rpx;
+    color: #fff;
+    background: red;
+}
+.type-act{
+    background: #DE4B4B;
+}
+.news-info{
+    padding-top: 20rpx;
+}
+.news-box{
+    padding-bottom: 20rpx; 
+    border-bottom: 1rpx solid #B2B2B2;
+}
+.news-title{
+    margin-bottom: 20rpx;
+    font-size: 30rpx;
+    /* text-indent: 30rpx; */
+}
+/* 微信小程序多行文字垂直水平居中 */
+.news-title1{
+    width: 60%;
+    height: 200rpx;
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.img-box{
+    height: 200rpx;
+}
+.news-img1{
+    width: 33%;
+    height: 200rpx;
+}
+.news-img2{
+    width: 49%;
+    float: left;
+    margin: 0 0.5%;
+    height: 300rpx;
+}
+.news-img3{
+    width: 32.3%;
+    float: left;
+    margin: 0 0.5%;
+    height: 200rpx;
+}

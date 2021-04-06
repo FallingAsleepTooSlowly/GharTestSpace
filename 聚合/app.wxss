@@ -1,0 +1,37 @@
+/**app.wxss**/
+.container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 200rpx 0;
+  box-sizing: border-box;
+} 
+
+.v-center{display: flex;justify-content: center;}
+.v-width{width: 700rpx;}
+.gray{color: #A2A2A2;}
+.more-gray{color: #5E5E5E;}
+.default{color: #009CFF;}
+.f-fs20{font-size: 20rpx;}
+.f-fs25{font-size: 25rpx;}
+.f-fs28{font-size: 28rpx;}
+.f-fs30{font-size: 30rpx;}
+.f-fs33{font-size: 33rpx;}
+.f-fs35{font-size: 35rpx;}
+.f-fs38{font-size: 38rpx;}
+.f-fs45{font-size: 45rpx;}
+.f-fs40{font-size: 40rpx;}
+.f-cb:after,.f-cbli li:after{display:block;clear:both;visibility:hidden;height:0;overflow:hidden;content:".";}
+.f-cb,.f-cbli li{zoom:1;}
+.f-ib{display:inline-block;}
+.f-dn{display:none;}
+.f-db{display:block;}
+.f-fl{float:left !important;}
+.f-fr{float:right !important;}
+.f-pr{position:relative;}
+.f-prz{position:relative;zoom:1;}
+.f-pa{position:absolute;}
+.f-pf{position:fixed;}
+.f-oh{overflow:hidden;}
